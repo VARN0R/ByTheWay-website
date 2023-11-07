@@ -3,13 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>By The Way</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    <div class="box_test">Huiwddw</div>
+<header>
+    <div class="container">
+        <nav>
+            <a href="#" class="header_logo"><img src="img/BY THE WAY.png" alt="logo"></a>
+            <ul class="menu">
+                <li class="menu_item"><a href="#" class="menu_link">Главная</a></li>
+                <li class="menu_item"><a href="#" class="menu_link">О приложении</a></li>
+                <li class="menu_item"><a href="#" class="menu_link">Функции</a></li>
+                <li class="menu_item"><a href="#" class="menu_link">Партнеры</a></li>
+                <li class="menu_item"><a href="#" class="menu_link">Отзывы</a></li>
+            </ul>
+            <a href="#" class="header_tiktok"><img src="img/tiktok_logo.png" alt="logo"></a>
+            <a href="#" class="header_inst"><img src="img/inst_logo.png" alt="logo"></a>
+            <a href="#" class="header_prem">Получить PREMIUM бесплатно</a>
+        </nav>
+    </div>
+</header>
+
+<section class="btw">
+    <div class="container">
+        <h1>By The Way</h1>
+        <div class="btw_text">           
+            Исследуйте красоты Беларуси с 
+            помощью <br> нашего приложения - планируйте маршруты,<br> узнавайте о 
+            достопримечательностях,<br> бронируйте отели и наслаждайтесь<br> 
+            неповторимыми путешествиями!
+        </div>
+        <a href="#" class="btw_google"><img src="img/button_google.png" alt="download_google"></a>
+        <a href="#" class="btw_apple"><img src="img/button_apple.png" alt="download_apple"></a>
+            
+        <img class="btw_img" src="img/mobile_bg1.png" alt="phone">
+    </div>  
+</section>
+
+<section class="app">
+    <div class="container">
+        <h2 class="title">О приложении</h2>
+        <div class="app_text">Вы любите путешествовать, но не знаете, как 
+            спланировать свое следующее приключение?<br> 
+            <span class="app_text_black">By The Way</span> – ваш личный помощник в мире путешествий. 
+            Создайте свой <span class="app_text_black">индивидуальный</span> маршрут, 
+            выбирая понравившиеся места или выберите  из множества <span class="app_text_black">тематических маршрутов</span>, 
+            которые подойдут любому вкусу и бюджету. 
+            By the way поможет вам открыть<br> новые горизонты и насладиться 
+            путешествием<br> без хлопот. 
+            Скачайте приложение By the way и начните свое 
+            путешествие <span class="app_text_black">прямо сейчас!</span>
+        </div>
+            
+        <div class="app_item_wrapper">
+            <div class="app_item_1000">
+                <div class="app_item_title">1000+</div>
+                <div class="app_item_subtitle">точек на карте</div>
+            </div>
+            <div class="app_item_50">
+                <div class="app_item_title">50+</div>
+                <div class="app_item_subtitle">маршрутов</div>
+            </div>
+            <div class="app_item_9">
+                <div class="app_item_title">9</div>
+                <div class="app_item_subtitle">партнеров</div>
+            </div>
+        </div>
+        
+        <img class="app_img" src="img/3phones.png" alt="3phones" class="app_img">
+    </div>
+   
+</section>
+
+
+
+
+   
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">Slide 1</div>
+          <div class="swiper-slide">Slide 2</div>
+          <div class="swiper-slide"><img src="img/Screenshot from 2023-09-17 14-20-34.png" alt=""></div>
+          <div class="swiper-slide">Slide 4</div>
+          <div class="swiper-slide">Slide 5</div>
+          <div class="swiper-slide">Slide 6</div>
+          <div class="swiper-slide">Slide 7</div>
+          <div class="swiper-slide">Slide 8</div>
+          <div class="swiper-slide">Slide 9</div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          pagination: {
+            el: ".swiper-pagination",
+            type: "progressbar",
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
 </body>
 </html>
 
