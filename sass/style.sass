@@ -8,7 +8,7 @@ header
     position: fixed
     height: 49px
     width: 100%
-    background-color: #fff
+    background-color: rgba(255, 255, 255, 0.95)
     z-index: 1
 
 nav
@@ -39,8 +39,10 @@ nav
         font-weight: 800
         line-height: 16px
         text-decoration: none
+        transition: 0.8s all
         &:hover
             color: #FFF
+            background-color: #58a9aa
     
 .menu
     list-style-type: none 
@@ -58,8 +60,9 @@ nav
         font-size: 13px
         font-weight: 800
         line-height: 20px
+        transition: 0.8s all
         &:hover
-            color: rgba(0, 0, 0, 0.54)
+            color: rgba(0, 0, 0, 1)
 
 h1
     margin: 0
@@ -165,19 +168,126 @@ h1
     line-height: 36px
     text-transform: uppercase    
 
+.opportunities
+    min-height: 1072px
+    background-color: #fff
+    padding: 44px 0 72px 0
+    &_item
+        margin-top: 20px
+        position: relative
+        width: 100%
+        &_block
+            position: absolute
+            top: 300px
+            left: 50%
+            transform: translateX(-50%)
+            width: 309px
+            height: 115px
+            background-color: #EAEAEA
+            border-radius: 16px
+            &_title
+                color: #000
+                font-size: 20px
+                font-weight: 700
+                line-height: 36px
+                text-transform: uppercase
+            &_text
+                color: #555
+                font-size: 18px
+                font-weight: 400
+                line-height: 18px
+        &_img
+            &_1
+                margin-top: -1.5% 
+                margin-left: 2%
+            &_2
+                //margin-top: -1.5% 
+                margin-left: 8%
+            &_3
+                //margin-top: -1.5% 
+                margin-left: 2%
+ 
+.reviews
+    min-height: 605px
+    background: url('../img/Frame4.png') center (center / cover) no-repeat
+    padding: 85px 0 72px 0
+    .title
+        width: 404px
+        margin: 0 auto
+        span
+            color: #4FB6B8
+    &_btn
+        margin: 0 auto
+        margin-top: 20px
+        width: 211px
+        height: 39px
+        display: flex
+        align-items: center
+        justify-content: center
+        border-radius: 25px
+        background-color: #68C4C6
+        text-decoration: none
+        color: #FFF
+        font-size: 22px
+        font-weight: 700
+        line-height: 17px
+        &:hover
+            color: #FFF
 
+        
 .swiper
-    width: 100%
+    width: 67%
     height: 100%
     margin-top: 50px
+    position: relative
 
 .swiper-slide 
+    min-height: 300px
+    padding: 25px 15px 25px 15px
     text-align: center
     font-size: 18px
     background: #fff
-    display: flex
-    justify-content: center
-    align-items: center
+    border-radius: 25px
+    border: 4px solid #68C4C6
+
+    &_wrapper
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 100%
+        &_logo
+            width: 20%
+        &_header
+            margin-left: 15px
+            width: 79%
+            &_title
+                text-align: left
+                color: #000
+                font-size: 16px
+                font-weight: 700
+                line-height: 17px
+                &_name
+                    font-size: 20px
+                &_work
+                    margin-top: 5px
+            
+            &_stars
+                margin-top: 5px
+                width: 50%
+    &_text
+        margin: 0 auto  
+        margin-top: 10px
+        width: 100%
+        height: 100%
+        color: #000
+        font-size: 16px
+        font-weight: 400
+        line-height: 22px
+        text-align: left
+
+        
+    
+ 
 
 .swiper-slide img 
     display: block
@@ -185,9 +295,15 @@ h1
     height: 100%
     object-fit: cover
 
+.swiper-button-prev, .swiper-button-next 
+    margin-top: 0.2%
+    margin-left: 13%
+    margin-right: 13%    
+    &::after
+        color: #68C4C6
+        font-weight: 1000
 
-.swiper-button-next:after
-    font-size: 20px
 
-.swiper-pagination
+
+
     
