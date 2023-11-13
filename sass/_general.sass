@@ -1,4 +1,3 @@
-
 header
     position: fixed
     height: 49px
@@ -17,13 +16,27 @@ nav
     &_logo
         display: block
         margin: 0
+        img
+            width: 142px
+            height: 16px
         
         margin-left: 54px
     &_tiktok
         display: block
         margin-left: 150px
+        img
+            width: 20px
+            heigh: 20px
+    &_inst
+        display: block
+        margin-left: 10px
+        img
+            width: 21px
+            height: 18px
+
     &_prem
         display: flex
+        margin-left: 10px
         align-items: center
         justify-content: center
         width: 265px
@@ -91,12 +104,44 @@ h1
        position: absolute
        top: -80px
        right: 90px
-    &_google
-        margin-left: 115px
-
-.container
-    position: relative
-    padding: 0
+    &_buttons
+        margin-top: 50px
+        margin-left: 80px
+        display: flex
+        &_google, &_apple
+            margin-left: 44px
+            display: flex
+            align-items: center
+            justify-content: center
+            width: 141px
+            height: 41px
+            text-decoration: none
+            border-radius: 15px
+            background-color: #68C4C6
+            color: #FFF
+            font-size: 11px
+            border: 1px solid black
+            font-weight: 100
+            line-height: 14px
+            background-color: black
+            transition: 0.8s all
+            &:hover
+                color: white
+                border: 1px solid white  
+            .btw_buttons_google_img
+                img
+                    width: 25px
+                    height: 25px
+            .btw_buttons_apple_img               
+                img
+                    width: 30px
+                    height: 30px
+            &_text
+                margin-left: 5px
+                span
+                    font-size: 15px
+                    font-weight: 600
+                    line-height: 15px
 
 .app
     padding: 126px 0 100px 0
@@ -118,7 +163,6 @@ h1
             display: flex
             align-items: center
             margin-top: 28px
-
         &_title
             color: #14CED2
             font-size: 30px
@@ -151,7 +195,6 @@ h1
             height: 63px
             border-radius: 10px
             background-color: #EEEEEE
-
     &_img
         display: block
         width: 554.29px
@@ -177,8 +220,9 @@ h1
         position: relative
         width: 100%
         &_block
+            padding: 15px 10px 10px 10px
             position: absolute
-            top: 300px
+            top: 281px
             left: 50%
             transform: translateX(-50%)
             width: 309px
@@ -187,9 +231,9 @@ h1
             border-radius: 16px
             &_title
                 color: #000
-                font-size: 20px
+                font-size: 19px
                 font-weight: 700
-                line-height: 36px
+                line-height: 19px
                 text-transform: uppercase
             &_text
                 color: #555
@@ -197,15 +241,24 @@ h1
                 font-weight: 400
                 line-height: 18px
         &_img
+            margin-top: 50px
+            img
+                height: 380px
             &_1
-                margin-top: -1.5% 
                 margin-left: 2%
             &_2
-                //margin-top: -1.5% 
                 margin-left: 8%
             &_3
-                //margin-top: -1.5% 
                 margin-left: 2%
+            &_4
+                margin-left: 7%
+                margin-top: 100px
+            &_5
+                margin-left: 14%
+                margin-top: 100px
+            &_6
+                margin-left: 7%
+                margin-top: 100px
  
 .reviews
     min-height: 605px
@@ -235,8 +288,7 @@ h1
         &:hover
             background-color: #5aa0a1
             color: white
-
-        
+      
 .swiper
     width: 67%
     height: 100%
@@ -251,7 +303,6 @@ h1
     background: #fff
     border-radius: 25px
     border: 4px solid #68C4C6
-
     &_wrapper
         display: flex
         justify-content: center
@@ -271,8 +322,7 @@ h1
                 &_name
                     font-size: 20px
                 &_work
-                    margin-top: 5px
-            
+                    margin-top: 5px        
             &_stars
                 margin-top: 5px
                 width: 50%
@@ -287,10 +337,6 @@ h1
         line-height: 22px
         text-align: left
 
-        
-    
- 
-//test commit test commit
 .swiper-slide img 
     display: block
     width: 100%
@@ -321,7 +367,15 @@ h1
         justify-content: center 
         img
             display: block
-            margin-left: 50px
+            margin: 0 auto
+            margin-left: 100px
+            &:nth-child(1)
+                width: 200px
+                height: 116px
+            &:nth-child(2)
+                width: 185px
+                height: 145px
+                
     .title
         width: 331px
         margin: 0 auto
@@ -360,7 +414,6 @@ h1
             border-radius: 25px
             border: 4px solid #AAA
             background: #FFF
-            
             &_title
                 width: 287px
                 margin: 0 auto
@@ -369,7 +422,6 @@ h1
                 font-weight: 700
                 line-height: 28px
                 text-transform: uppercase
-                
             input
                 width: 362px
                 min-height: 37px 
@@ -388,9 +440,6 @@ h1
                     font-size: 18px
                     font-weight: 700
                     line-height: 18px
-                
-           
-            
             input:nth-child(2)
                 margin-top: 25px
             input:nth-child(5)
@@ -408,25 +457,15 @@ h1
                 font-weight: 800
                 line-height: 20px
                 transition: 0.8s all
+                border: none  
                 &:hover
-                    background-color: #5aa0a1
-                
-                    
-                
-                        
-                    
-
-                     
+                    background-color: #5aa0a1       
         &_img
             position: absolute
             z-index: -1
             top: -100px
             right: 12%
             
-        
-
-
-
 .footer
     min-height: 87px
     padding: 15px 0 15px 0
@@ -434,6 +473,9 @@ h1
     &_logo
         display: block
         margin-top: 15px
+        width: 142px
+        img
+            height: 16px
     &_laws, &_policy
         display: block
         text-decoration: none
@@ -444,7 +486,6 @@ h1
         transition: 0.8s all
         &:hover
             color: #6b6b6b
-
     &_laws
         margin-top: 10px
     &_policy
@@ -455,10 +496,42 @@ h1
         justify-content: center
         margin-top: 10px
         &_email
+            position: relative
             color: #C6C6C6
             font-size: 16px
             font-weight: 400
             line-height: 22px
+            cursor: pointer
+            &:hover &_help
+                visibility: visible
+                opacity: 0.7
+            &_help
+                visibility: hidden
+                width: 140px
+                height: 20px
+                color: white
+                font-size: 10px
+                font-weight: 100
+                line-height: 10px    
+                text-align: center
+                padding: 5px 0
+                position: absolute
+                z-index: 1
+                bottom: 100%    
+                left: 50%
+                margin-left: -60px
+                opacity: 0
+                transition: opacity 0.3s
+        &_inst
+            margin-left: 15px
+            img
+                width: 27px
+                height: 26px
+        &_tiktok
+            margin-left: 10px
+            img
+                width: 21px
+                height: 27px
         a
             display: block
        

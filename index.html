@@ -22,7 +22,7 @@
                 <li class="menu_item"><a href="#reviews" class="menu_link">Отзывы</a></li>
             </ul>
             <a href="#" class="header_tiktok"><img src="img/tiktok_logo.png" alt="tiktok"></a>
-            <a href="#" class="header_inst"><img src="img/inst_logo.png" alt="inst"></a>
+            <a href="https://www.instagram.com/the.way.by" target="_blank" class="header_inst"><img src="img/inst_logo.png" alt="inst"></a>
             <a href="#application" class="header_prem">Получить PREMIUM бесплатно</a>
         </nav>
     </div>
@@ -37,8 +37,16 @@
             достопримечательностях,<br> бронируйте отели и наслаждайтесь<br> 
             неповторимыми путешествиями!
         </div>
-        <a href="#" class="btw_google"><img src="img/button_google.png" alt="download_google"></a>
-        <a href="#" class="btw_apple"><img src="img/button_apple.png" alt="download_apple"></a>
+        <div class="btw_buttons">
+            <a href="#" class="btw_buttons_google">
+                <div class="btw_buttons_google_img"><img src="img/google-play-5.svg" alt="goole play logo"></div>
+                <div class="btw_buttons_google_text">Получить в <br><span>Google Play</span></div>
+            </a>
+            <a href="#" class="btw_buttons_apple">
+                <div class="btw_buttons_apple_img"><img src="img/apple.svg" alt="app store logo"></div>
+                <div class="btw_buttons_apple_text">Скачать в <br><span>App Store</span></div>
+            </a>
+        </div>
             
         <img class="btw_img" src="img/mobile_bg2.png" alt="phone">
     </div>  
@@ -61,15 +69,15 @@
             
         <div class="app_item_wrapper">
             <div class="app_item_1000">
-                <div id="counter" data-count="1000" class="app_item_title">0</div>
+                <div id="counter1000" data-count="1000" class="app_item_title">0</div>
                 <div class="app_item_subtitle">точек на карте</div>
             </div>
             <div class="app_item_50">
-                <div class="app_item_title">50+</div>
+                <div id="counter50" data-count="50" class="app_item_title">0</div>
                 <div class="app_item_subtitle">маршрутов</div>
             </div>
             <div class="app_item_9">
-                <div class="app_item_title">9</div>
+                <div id="counter9" data-count="9" class="app_item_title">0</div>
                 <div class="app_item_subtitle">партнеров</div>
             </div>
         </div>
@@ -81,12 +89,12 @@
 
 <section class="opportunities" id="opportunities">
     <div class="container">
-        <h2 class="title">наши возможности</h2>
+        <h2 class="title">возможности приложения</h2>
         <div class="row">
             
             <div class="col-md-4">
                 <div class="opportunities_item">
-                    <div class="opportunities_item_img_1"><img src="img/opp1.png" alt="opp1"></div>
+                    <div class="opportunities_item_img opportunities_item_img_1"><img src="img/opp1.png" alt="opp1"></div>
                     
                     <div class="opportunities_item_block">
                         <div class="opportunities_item_block_title">категории</div>
@@ -100,7 +108,7 @@
 
             <div class="col-md-4">
                 <div class="opportunities_item">
-                    <div class="opportunities_item_img_2"><img src="img/opp2.png" alt="opp2"></div>
+                    <div class="opportunities_item_img opportunities_item_img_2"><img src="img/opp2.png" alt="opp2"></div>
                     
                     <div class="opportunities_item_block">
                         <div class="opportunities_item_block_title">конструктор маршрутов</div>
@@ -112,13 +120,48 @@
 
             <div class="col-md-4">
                 <div class="opportunities_item">
-                    <div class="opportunities_item_img_3"><img src="img/opp3.png" alt="opp3"></div>
+                    <div class="opportunities_item_img opportunities_item_img_3"><img src="img/opp3.png" alt="opp3"></div>
+                    
+                    <div class="opportunities_item_block">
+                        <div class="opportunities_item_block_title">места по пути</div>
+                        <div class="opportunities_item_block_text">Не упускайте интересные места, которые находятся по 
+                            пути вашего маршрута, узнавайте их истории и легенды!</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="opportunities_item">
+                    <div class="opportunities_item_img opportunities_item_img_4"><img src="img/opp4.png" alt="opp4"></div>
+                    
+                    <div class="opportunities_item_block">
+                        <div class="opportunities_item_block_title">cкидки, акции, купоны</div>
+                        <div class="opportunities_item_block_text"> Получайте эксклюзивные акции и купоны. 
+                            Экономьте и наслаждайтесь уникальными приключениями!</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="opportunities_item">
+                    <div class="opportunities_item_img opportunities_item_img_5"><img src="img/opp5.png" alt="opp5"></div>
+                    
+                    <div class="opportunities_item_block">
+                        <div class="opportunities_item_block_title">каршеринг/бронь отелей</div>
+                        <div class="opportunities_item_block_text">Сравнивайте цены и отзывы. Бронируйте нужный 
+                            вам автомобиль или отель прямо в приложении!</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="opportunities_item">
+                    <div class="opportunities_item_img opportunities_item_img_6"><img src="img/opp6.png" alt="opp6"></div>
                     
                     <div class="opportunities_item_block">
                         <div class="opportunities_item_block_title">совместные поездки</div>
-                        <div class="opportunities_item_block_text">Путешествуйте с компанией, 
-                            отслеживайте местоположение ваших компаньонов на карте. 
-                            И получайте совместные бонусы!  </div>
+                        <div class="opportunities_item_block_text">Путешествуйте с компанией, отслеживайте местоположение ваших компаньонов на карте. 
+                            И получайте совместные бонусы!</div>
                     </div>
                 </div>
             </div>
@@ -268,12 +311,8 @@
     <div class="container">
         <h2 class="title">Наши партнёры</h2>
         <div class="partners_wrapper">
-            <img src="img/image 10.png" alt="img1">
-            <img src="img/image 9.png" alt="img2">
-            <img src="img/image 8.png" alt="img3">
-            <img src="img/image 11.png" alt="img4">
-            <img src="img/image 13.png" alt="img5">
-            <img src="img/image 12.png" alt="img6">
+            <img src="img/space_logo.png" alt="space logo">
+            <img src="img/belarus_logo.png" alt="belarus logo">
         </div>
     </div>
 </section>
@@ -321,8 +360,12 @@
             </div>
             <div class="col-md-4 offset-md-1">
                <div class="footer_media">
-                    <div class="footer_media_email">appbytheway1@gmail.com</div>
-                    <a href="#" class="footer_media_inst"><img src="img/inst_logo_2.png" alt="inst"></a>
+                    <div id="email" class="footer_media_email">
+                        appbytheway1@gmail.com
+                        <div class="footer_media_email_help">Нажмите, чтобы скопировать</div>
+                    </div>
+                   
+                    <a href="https://www.instagram.com/the.way.by" target="_blank" class="footer_media_inst"><img src="img/inst_logo_2.png" alt="inst"></a>
                     <a href="#" class="footer_media_tiktok"><img src="img/tiktok_logo_2.png" alt="tiktok"></a>
                </div>
             </div>
@@ -338,6 +381,7 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="js/swiper.js"></script>
     <script src="js/countAnimation.js"></script>
+    <script src="js/emailCopy.js"></script>
 </body>
 </html>
 
