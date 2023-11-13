@@ -13,17 +13,17 @@
 <header>
     <div class="container">
         <nav>
-            <a href="#" class="header_logo"><img src="img/BY THE WAY.png" alt="logo"></a>
+            <a href="#" class="header_logo"><img src="img/logo1.png" alt="logo"></a>
             <ul class="menu">
                 <li class="menu_item"><a href="#" class="menu_link">Главная</a></li>
-                <li class="menu_item"><a href="#" class="menu_link">О приложении</a></li>
-                <li class="menu_item"><a href="#" class="menu_link">Функции</a></li>
-                <li class="menu_item"><a href="#" class="menu_link">Партнеры</a></li>
-                <li class="menu_item"><a href="#" class="menu_link">Отзывы</a></li>
+                <li class="menu_item"><a href="#app" class="menu_link">О приложении</a></li>
+                <li class="menu_item"><a href="#opportunities" class="menu_link">Функции</a></li>
+                <li class="menu_item"><a href="#partners" class="menu_link">Партнеры</a></li>
+                <li class="menu_item"><a href="#reviews" class="menu_link">Отзывы</a></li>
             </ul>
-            <a href="#" class="header_tiktok"><img src="img/tiktok_logo.png" alt="logo"></a>
-            <a href="#" class="header_inst"><img src="img/inst_logo.png" alt="logo"></a>
-            <a href="#" class="header_prem">Получить PREMIUM бесплатно</a>
+            <a href="#" class="header_tiktok"><img src="img/tiktok_logo.png" alt="tiktok"></a>
+            <a href="#" class="header_inst"><img src="img/inst_logo.png" alt="inst"></a>
+            <a href="#application" class="header_prem">Получить PREMIUM бесплатно</a>
         </nav>
     </div>
 </header>
@@ -40,11 +40,11 @@
         <a href="#" class="btw_google"><img src="img/button_google.png" alt="download_google"></a>
         <a href="#" class="btw_apple"><img src="img/button_apple.png" alt="download_apple"></a>
             
-        <img class="btw_img" src="img/mobile_bg1.png" alt="phone">
+        <img class="btw_img" src="img/mobile_bg2.png" alt="phone">
     </div>  
 </section>
 
-<section class="app">
+<section class="app" id="app">
     <div class="container">
         <h2 class="title">О приложении</h2>
         <div class="app_text">Вы любите путешествовать, но не знаете, как 
@@ -61,7 +61,7 @@
             
         <div class="app_item_wrapper">
             <div class="app_item_1000">
-                <div class="app_item_title">1000+</div>
+                <div id="counter" data-count="1000" class="app_item_title">0</div>
                 <div class="app_item_subtitle">точек на карте</div>
             </div>
             <div class="app_item_50">
@@ -74,12 +74,12 @@
             </div>
         </div>
         
-        <img class="app_img" src="img/3phones.png" alt="3phones" class="app_img">
+        <img class="app_img" src="img/3phones2.png" alt="3phones" class="app_img">
     </div>
    
 </section>
 
-<section class="opportunities">
+<section class="opportunities" id="opportunities">
     <div class="container">
         <h2 class="title">наши возможности</h2>
         <div class="row">
@@ -128,7 +128,7 @@
     </div>
 </section>
 
-<section class="reviews">
+<section class="reviews" id="reviews">
     <div class="container">
         <h2 class="title">Что о нас <span>говорят?</span></h2>
         <div class="swiper mySwiper">
@@ -264,6 +264,71 @@
     </div>
 </section>
 
+<section class="partners" id="partners">
+    <div class="container">
+        <h2 class="title">Наши партнёры</h2>
+        <div class="partners_wrapper">
+            <img src="img/image 10.png" alt="img1">
+            <img src="img/image 9.png" alt="img2">
+            <img src="img/image 8.png" alt="img3">
+            <img src="img/image 11.png" alt="img4">
+            <img src="img/image 13.png" alt="img5">
+            <img src="img/image 12.png" alt="img6">
+        </div>
+    </div>
+</section>
+
+<section class="application" id="application">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 offset-md-1">
+                <div class="application_text">
+                    <div class="application_text_subtitle">Оставьте заявку прямо сейчас</div>
+                    <div class="application_text_title">И получите постоянную Premium  версию бесплатно</div>
+                    <div class="application_text_description">*когда вы заполняли форму, мы уже почти<br> доделали приложение. 
+                        Как только оно будет<br> готово, мы сообщим вам через электронную<br> почту и как бонус 
+                        предоставим постоянный<br> доступ к 
+                        PREMIUM версии бесплатно</div>
+                </div>
+            </div>
+        
+            <div class="col-md-6">
+                <div class="application_item">
+                    <img class="application_item_img" src="img/application_img.png" alt="1">
+                    <form class="application_item_form" action="">
+                        <div class="application_item_form_title">Заполните форму</div>
+                        <input type="text" placeholder="Имя">
+                        <input type="email" placeholder="Электронная почта">
+                        <input type="tel" placeholder="Номер телефона">
+                        <input type="submit" value="Получить PREMIUM">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 offset-md-1">
+                <a href="#" class="footer_logo"><img src="img/logo2.png" alt="logo"></a>
+            </div>
+            <div class="col-md-3">
+                <a href="#" class="footer_laws">© Все права защищены</a>
+                <a href="#" class="footer_policy">Политика конфиденциальности</a>
+            </div>
+            <div class="col-md-4 offset-md-1">
+               <div class="footer_media">
+                    <div class="footer_media_email">appbytheway1@gmail.com</div>
+                    <a href="#" class="footer_media_inst"><img src="img/inst_logo_2.png" alt="inst"></a>
+                    <a href="#" class="footer_media_tiktok"><img src="img/tiktok_logo_2.png" alt="tiktok"></a>
+               </div>
+            </div>
+        </div>
+    </div>
+</footer>
 
 
 
@@ -271,21 +336,8 @@
     
     
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-    
-      <script>
-        var swiper = new Swiper(".mySwiper", {
-            loop: true,
-            slidesPerView: 3,
-            spaceBetween: 22,
-            pagination: {
-                el: ".swiper-pagination",
-            },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-        });
-      </script>
+    <script src="js/swiper.js"></script>
+    <script src="js/countAnimation.js"></script>
 </body>
 </html>
 
