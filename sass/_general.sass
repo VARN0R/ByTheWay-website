@@ -85,7 +85,6 @@ nav
             color: rgba(0, 0, 0, 1)
 
 h1
-    margin: 110px 0 0 108px
     color: #FFF
     font-style: normal
     font-size: 60px
@@ -97,25 +96,24 @@ h1
     min-height: 637px
     padding: 83px 0 40px 0
     background: url('../img/mir_castle.jpeg') center (center / cover) no-repeat
+    &_wrapper
+        margin: 110px 0 0 108px
+    &_img
+        display: block
+        width: 547.65px
+        height: 562.93px
+        position: absolute
+        top: -80px
+        right: 90px
     &_text
         width: 522px
-        margin: 0
         margin-top: 28px
-        margin-left: 108px
         color: #FFF
         font-size: 24px
         font-weight: 400
         line-height: 24px
-    &_img
-       display: block
-       width: 547.65px
-       height: 562.93px
-       position: absolute
-       top: -80px
-       right: 90px
     &_buttons
         margin-top: 50px
-        margin-left: 80px
         display: flex
         &_google, &_apple, &_telegram
             margin-left: 44px
@@ -135,12 +133,12 @@ h1
             transition: 0.8s all
             &:hover
                 color: white
-                border: 1px solid white  
+                border: 1px solid white
             .btw_buttons_google_img
                 img
                     width: 25px
                     height: 25px
-            .btw_buttons_apple_img               
+            .btw_buttons_apple_img
                 img
                     width: 30px
                     height: 30px
@@ -150,14 +148,14 @@ h1
                     height: 30px
             .btw_buttons_telegram_text
                 font-weight: 400
-
-
             &_text
                 margin-left: 5px
                 span
                     font-size: 15px
                     font-weight: 600
                     line-height: 15px
+        &_telegram
+            margin-left: 0
 
 .app
     padding: 126px 0 100px 0
@@ -281,8 +279,7 @@ h1
         span
             color: #4FB6B8
     &_btn
-        margin: 0 auto
-        margin-top: 20px
+        margin: 20px auto 0
         width: 211px
         height: 39px
         display: flex
@@ -338,8 +335,8 @@ h1
                 margin-top: 5px
                 width: 50%
     &_text
-        margin: 0 auto  
-        margin-top: 10px
+
+        margin: 10px auto 0
         width: 100%
         height: 100%
         color: #000
@@ -485,11 +482,10 @@ h1
             input:nth-child(2)
                 margin-top: 25px
             input:nth-child(5)
-                margin: 0 auto
                 display: flex
                 align-items: center
                 justify-content: center
-                margin-top: 19px
+                margin: 19px auto 0
                 width: 228px
                 height: 42px
                 border-radius: 30px
