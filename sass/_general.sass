@@ -21,10 +21,16 @@ nav
     line-height: 10px
     text-align: center
 
+
 .hamburger
     display: none
 
+.hideHeader
+    visibility: hidden
+    opacity: 0
+
 .header
+    transition: 0.5s all
     &_logo
         display: block
         img
@@ -77,7 +83,7 @@ h1
 .btw
     min-height: 637px
     padding: 83px 0 40px 0
-    background: url('../img/mir_castle.jpeg') center (center / cover) no-repeat
+    background: url('../img/mir_castle.webp') center (center / cover) no-repeat
     &_wrapper
         margin: 110px 0 0 108px
     &_img
@@ -277,10 +283,11 @@ h1
         align-items: center
         justify-content: center 
         &_item
-            width: 200px
-            margin-left: 50px
+            width: 500px
             img
                 width: 100%
+                height: 100%
+                object-fit: cover
                 
     .title
         width: 331px

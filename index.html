@@ -3,21 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Way</title>
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>The Way BY</title>
+    <meta name="title" content="TheWay.BY - бесплатные туристические маршруты по Беларуси">
+    <meta name="description" content="Открой Беларусь вместе с нами с помощью нашего приложения">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://theway.by/">
+    <meta property="og:title" content="TheWay.BY - бесплатные туристические маршруты по Беларуси">
+    <meta property="og:description" content="Открой Беларусь вместе с нами с помощью нашего приложения">
+    <meta property="og:image"
+          content="img/thewayby_present.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://theway.by/">
+    <meta property="twitter:title" content="TheWay.BY - бесплатные туристические маршруты по Беларуси">
+    <meta property="twitter:description"
+          content="Открой Беларусь вместе с нами с помощью нашего приложения">
+    <meta property="twitter:image"
+          content="img/thewayby_present.jpg">
+
+    <!-- Favicon  -->
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" media="print" onload="this.media='all'">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin media="print" onload="this.media='all'">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
-          rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+          rel="stylesheet" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" media="print" onload="this.media='all'"/>
+    <link rel="stylesheet" href="css/animate.min.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="css/style.min.css">
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 </head>
 <body>
-<header>
+<header class="header">
     <div class="container">
         <nav>
 <!-- Пока не появится нормальная картинка           <a href="#" class="header_logo"><img src="img/photo_2023-10-21_17-37-58.jpg" alt="logo"></a>-->
@@ -44,15 +84,15 @@
 <section class="btw">
     <div class="container">
         <div class="btw_wrapper">
-            <h1>The Way</h1>
-            <div class="btw_text">
+            <h1 class="animate__animated animate__fadeInLeft wow" data-wow-duraction="1s" data-wow-delay="0.1s">The Way</h1>
+            <div class="btw_text animate__animated animate__fadeInLeft wow" data-wow-duraction="1s" data-wow-delay="1.2s">
                 Исследуйте красоты Беларуси с
                 помощью <br> нашего приложения - планируйте маршруты,<br> узнавайте о
                 достопримечательностях,<br> бронируйте отели и наслаждайтесь<br>
                 неповторимыми путешествиями!
             </div>
-            <div class="btw_buttons">
-                <a href="https://t.me/theway_by_bot" class="btw_buttons_telegram">
+            <div class="btw_buttons animate__animated animate__fadeInUp wow" data-wow-duraction="1s" data-wow-delay="2s">
+                <a href="https://t.me/TheWayByBot" class="btw_buttons_telegram">
                     <div class="btw_buttons_telegram_img"><img src="img/telegram_logo.png" alt="telegram bot logo"></div>
                     <div class="btw_buttons_telegram_text">Наш бот в<br><span>Telegram</span></div>
                 </a>
@@ -67,15 +107,14 @@
 
             </div>
         </div>
-            
-        <img class="btw_img" src="img/mobile_bg2.png" alt="phone">
+        <img class="btw_img animate__animated animate__fadeInUp wow" data-wow-duraction="1s" data-wow-delay="2.5s" src="img/mobile_bg2.png" alt="phone">
     </div>  
 </section>
 
 <section class="app" id="app">
     <div class="container">
-        <h2 class="title">О приложении</h2>
-        <div class="app_text">Вы любите путешествовать, но не знаете, как 
+        <h2 class="title animate__animated animate__fadeInLeft wow" data-wow-duraction="1s" data-wow-delay="0.1s">О приложении</h2>
+        <div class="app_text animate__animated animate__fadeInLeft wow" data-wow-duraction="1s" data-wow-delay="0.5s">Вы любите путешествовать, но не знаете, как
             спланировать свое следующее приключение?<br><br> 
             <span class="app_text_black">The Way</span> – ваш личный помощник в мире путешествий.
             Создайте свой <span class="app_text_black">индивидуальный</span> маршрут, 
@@ -102,18 +141,18 @@
             </div>
         </div>
         
-        <img class="app_img" src="img/3phones2.png" alt="3phones">
+        <img class="app_img animate__animated animate__fadeInUp wow" data-wow-duraction="1s" data-wow-delay="1s" src="img/3phones2.png" alt="3phones">
     </div>
    
 </section>
 
 <section class="opportunities" id="opportunities">
     <div class="container">
-        <h2 class="title">возможности приложения</h2>
+        <h2 class="title animate__animated animate__fadeInLeft wow" data-wow-duraction="1s" data-wow-delay="0.1s">возможности приложения</h2>
         <div class="row">
             
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                <div class="opportunities_item">
+                <div class="opportunities_item animate__animated animate__fadeInDown wow" data-wow-duraction="1s" data-wow-delay="0.1s">
                     <div class="opportunities_item_img"><img src="img/1opp.png" alt="1opp"></div>
                     
                     <div class="opportunities_item_block">
@@ -127,7 +166,7 @@
             </div>
 
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                <div class="opportunities_item">
+                <div class="opportunities_item animate__animated animate__fadeInDown wow" data-wow-duraction="1s" data-wow-delay="0.3s">
                     <div class="opportunities_item_img"><img src="img/2opp.png" alt="2opp"></div>
                     
                     <div class="opportunities_item_block">
@@ -139,7 +178,7 @@
             </div>
 
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                <div class="opportunities_item">
+                <div class="opportunities_item animate__animated animate__fadeInDown wow" data-wow-duraction="1s" data-wow-delay="0.5s">
                     <div class="opportunities_item_img"><img src="img/opp33.png" alt="3opp"></div>
                     
                     <div class="opportunities_item_block">
@@ -151,7 +190,7 @@
             </div>
 
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                <div class="opportunities_item">
+                <div class="opportunities_item animate__animated animate__fadeInDown wow" data-wow-duraction="1s" data-wow-delay="0.1s">
                     <div class="opportunities_item_img"><img src="img/4opp.png" alt="4opp"></div>
                     
                     <div class="opportunities_item_block">
@@ -163,7 +202,7 @@
             </div>
 
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                <div class="opportunities_item">
+                <div class="opportunities_item animate__animated animate__fadeInDown wow" data-wow-duraction="1s" data-wow-delay="0.3s">
                     <div class="opportunities_item_img"><img src="img/5opp.png" alt="5opp"></div>
                     
                     <div class="opportunities_item_block">
@@ -175,7 +214,7 @@
             </div>
 
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                <div class="opportunities_item">
+                <div class="opportunities_item animate__animated animate__fadeInDown wow" data-wow-duraction="1s" data-wow-delay="0.5s">
                     <div class="opportunities_item_img"><img src="img/6opp.png" alt="6opp"></div>
                     
                     <div class="opportunities_item_block">
@@ -192,7 +231,7 @@
 
 <section class="reviews" id="reviews">
     <div class="container">
-        <h2 class="title">Что о нас <span>говорят?</span></h2>
+        <h2 class="title animate__animated animate__fadeInLeft wow" data-wow-duraction="1s" data-wow-delay="0.1s">Что о нас <span>говорят?</span></h2>
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
                 <div class="mySwiper_slide swiper-slide">
@@ -337,10 +376,10 @@
 
 <section class="partners" id="partners">
     <div class="container">
-        <h2 class="title">Наши партнёры</h2>
-        <div class="partners_wrapper">
-            <div class="partners_wrapper_item"><img src="img/space_logo.png" alt="space logo"></div>
-            <div class="partners_wrapper_item"><img src="img/belarus_logo.png" alt="belarus logo"></div>
+        <h2 class="title animate__animated animate__fadeInLeft wow" data-wow-duraction="1s" data-wow-delay="0.1s">Наши партнёры</h2>
+        <div class="partners_wrapper animate__animated animate__fadeInUp wow" data-wow-duraction="1s" data-wow-delay="0.5s">
+            <div class="partners_wrapper_item"><img src="img/partners1.jpg" alt="space logo"></div>
+            <div class="partners_wrapper_item"><img src="img/partners2.jpg" alt="belarus logo"></div>
         </div>
     </div>
 </section>
@@ -352,13 +391,13 @@
                 <div class="application_tryBot_content">
                     Ваши данные успешно отправлены!<br><br>
                     Пока приложение находится в разработке, Вы можете попробовать воспользоваться нашим телеграмм ботом:
-                    <a href="https://t.me/theway_by_bot"><img src="img/telegram_logo.png" alt="telegram bot"></a>
+                    <a href="https://t.me/TheWayByBot"><img src="img/telegram_logo.png" alt="telegram bot"></a>
                 </div>
             </div>
             <div class="col-xl-5  col-lg-4 offset-lg-1 col-10 offset-1">
                 <div class="application_text">
-                    <div class="application_text_subtitle">Оставьте заявку прямо сейчас</div>
-                    <div class="application_text_title">И получите постоянную Premium  версию бесплатно</div>
+                    <div class="application_text_subtitle animate__animated animate__fadeInLeft wow" data-wow-duraction="1s" data-wow-delay="0.1s">Оставьте заявку прямо сейчас</div>
+                    <div class="application_text_title animate__animated animate__fadeInLeft wow" data-wow-duraction="1s" data-wow-delay="0.3s">И получите постоянную Premium  версию бесплатно</div>
                     <div id="applicationText" class="application_text_description">*когда вы заполняли форму, мы уже почти<br> доделали приложение. 
                         Как только оно будет<br> готово, мы сообщим вам через электронную<br> почту и как бонус 
                         предоставим постоянный<br> доступ к 
@@ -367,7 +406,7 @@
             </div>
         
             <div class="col-xl-5 col-lg-5 col-10 offset-1">
-                <div class="application_item">
+                <div class="application_item animate__animated animate__fadeInDown wow" data-wow-duraction="1s" data-wow-delay="1.1s">
                     <img class="application_item_img" src="img/application_img.png" alt="1">
                     <form class="application_item_form" action="" name="submit-to-google-sheet">
                         <div class="application_item_form_title">Заполните форму</div>
@@ -416,7 +455,11 @@
     <script src="js/dataForm.js"></script>
     <script src="js/opacityText.js"></script>
     <script src="js/emailCopy.js"></script>
-
+    <script src="js/hideHeader.js"></script>
+    <script src="js/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 </html>
 
