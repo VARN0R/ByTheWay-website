@@ -3,6 +3,7 @@ const scriptURL = 'https://script.google.com/macros/s/AKfycbynb-42Zmt_RnQD-MPQw4
 const form = document.forms['submit-to-google-sheet']
 const ansForm = document.getElementById('ansForm')
 const tryBot = document.getElementById('tryBot')
+const close = document.getElementById('tryBotClose');
 form.addEventListener('submit', e => {
     e.preventDefault()
     ansForm.innerHTML="Загрузка..."
@@ -24,3 +25,7 @@ window.onclick = function(event){
         tryBot.style.display = "none"
     }
 }
+
+close.addEventListener('click', (e) => {
+    tryBot.style.display = "none";
+})

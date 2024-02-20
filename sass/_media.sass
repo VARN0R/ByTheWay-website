@@ -5,7 +5,7 @@
     
     .header
         &_tiktok
-            margin-left: 50px
+            margin-left: 165px
 
     .btw
         &_buttons
@@ -38,7 +38,7 @@
 
     .header
         &_tiktok
-            margin-left: 50px
+            margin-left: 145px
         &_prem
             width: 160px
             font-size: 10px
@@ -148,11 +148,8 @@
     .header
         &_logo
             margin-left: 3px
-            img
-                width: 100px
-                height: 14px
         &_tiktok
-            margin-left: 20px
+            margin-left: 110px
 
     .btw
         min-height: 537px
@@ -199,9 +196,15 @@
         &_media
             justify-content: start
             margin-top: 20px
+        &_logo
+            margin-left: 0
            
 
 @media (max-width: 767px)
+    .header
+        &_tiktok
+            margin-left: 270px
+
     .hamburger
         display: block
         position: absolute
@@ -270,10 +273,12 @@
         line-height: 35px
 
     .title
-        font-size: 20px
-        line-height: 20px
+        font-size: 25px
+        line-height: 25px
     
     .app
+        padding: 60px 0 0
+
         &_text
             width: 400px
             font-size: 15px
@@ -297,42 +302,60 @@
                 margin-top: 10px
     
     .opportunities
+        padding: 80px 0 0
         .title
-            width: 60%
+            text-align: center
             margin: 0 auto
 
 
     .reviews
+        min-height: 500px
+        padding: 80px 0 0
+        &_btn
+            margin-top: 10px
         .title
             width: 100%
             text-align: center
+
+    .mySwiper
+        margin-top: 20px
     
     .partners
+        min-height: 450px
+        padding: 60px 0 0
+        &_wrapper
+            margin-top: 10px
         .title
             width: 50%
             text-align: center
 
     .application
+        padding-top: 60px
         &_item
             &_img
                 right: 1%
+        &_text
+            margin-top: 0
     
    
     
 @media (max-width: 575px)
-    
+
+
+    .title
+        font-size: 20px
+        line-height: 20px
+
     .container
         position: relative
         padding: 0 20px
     
     .header
         &_logo
+            margin-top: -5px
             margin-left: 15px
-            img
-                width: 100px
-                height: 14px
         &_tiktok
-            margin-left: 20px
+            margin-left: 40px
         &_prem
             margin-top: 0
         
@@ -340,7 +363,7 @@
         height: 100px
     nav
         height: 100px
-        width: 70%
+        width: 80%
         flex-wrap: wrap
 
     .btw
@@ -378,6 +401,7 @@
             &_1000
                 margin-left: 15px
     .opportunities
+        padding-top: 60px
         .title
             width: 100%
             text-align: center
@@ -385,21 +409,21 @@
 
 
     .swiper
-        width: 70%
+        width: 90%
     
     .swiper-button-prev, .swiper-button-next 
-        margin-left: 1%
-        margin-right: 1%
+        display: none
     
     .partners
         &_wrapper
             width: 100%
-            margin: 40px 0 0
+            margin: 20px 0 0
             &_item
                 margin-left: 0
                 margin-top: 20px
 
     .application
+        padding: 20px 0 60px 0
         &_text
             text-align: center
             &_title
@@ -413,7 +437,7 @@
                 padding: 18px 25px 15px 16px
                 width: 100%
                 min-height: 270px
-                margin: 10px auto 0
+                margin: 30px auto 0
 
                 &_title
                     font-size: 20px
@@ -438,11 +462,6 @@
                     line-height: 13px     
             &_img
                display: none
-    .footer
-        &_logo
-            img
-                width: 100px
-                height: 14px
         &_media
             justify-content: start
             margin: 20px 0 0 0
@@ -450,15 +469,24 @@
     .hamburger
         right: 10%
 
-@media (max-width: 384px)
+    .application_tryBot_content
+        width: 300px
+
+
+@media (max-width: 434px)
     header
         height: 100px
     nav
         height: 70px
-        width: 70%
+        width: 80%
         flex-wrap: wrap
         margin-top: 15px
-                    
+
+    .header_tiktok
+        margin-left: 10px
+    .header_logo
+        margin-left: 15px
+
 
         
         

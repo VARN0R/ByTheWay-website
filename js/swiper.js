@@ -14,13 +14,16 @@ var swiper = new Swiper(".mySwiper", {
             slidesPerView: 3,
             spaceBetween: 22
         },
-
+        767: {
+            slidesPerView: 2,
+            spaceBetween: 22
+        },
         576: {
             slidesPerView: 1,
         },
 
         0: {
-            slidesPerView: 1
+            slidesPerView: 1,
         }
 
     }

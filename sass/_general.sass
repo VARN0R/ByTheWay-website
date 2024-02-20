@@ -10,7 +10,6 @@ nav
     display: flex
     align-items: center
     height: 49px
-    margin-left: 10%
 
 #ansForm
     color: #000
@@ -33,15 +32,16 @@ nav
     transition: 0.5s all
     &_logo
         display: block
+        width: 20px
+        height: 20px
+        margin: -10px 0 0 54px
         img
-            width: 142px
-            height: 16px
-
-        margin: 0 0 0 54px
+            width: 100%
+            height: 100%
 
     &_tiktok
         display: block
-        margin-left: 150px
+        margin-left: 300px
         img
             width: 20px
             height: 20px
@@ -214,6 +214,9 @@ h1
     margin-top: 50px
     z-index: 1
 
+.mySwiper
+    position: relative
+
 .mySwiper_slide
     min-height: 300px
     padding: 25px 15px 25px 15px
@@ -270,6 +273,7 @@ h1
         color: #68C4C6
         font-weight: 1000
 
+
 .partners
     min-height: 471px
     padding: 68px 0 137px 0
@@ -309,22 +313,40 @@ h1
         overflow: auto
         background-color: rgb(0,0,0)
         background-color: rgba(0,0,0,0.4)
+        &_close
+            position: absolute
+            top: -30px
+            right: -10px
+            width: 25px
+            height: 25px
+            cursor: pointer
+            span
+                display: block
+                width: 100%
+                background-color: red
+                height: 2px
+                margin-bottom: 21px
+                &:nth-child(1)
+                    transform: translateY(11px) rotate(45deg)
+                &:nth-child(2)
+                    transform: translateY(-11px) rotate(-45deg)
+
+
+
         &_content
+            position: relative
             background-color: #fefefe
             margin: auto
             padding: 20px
-            border: 1px solid #888
-            width: 80%
+            border: 4px solid #68C4C6
+            width: 50%
+            min-width: 300px
             text-align: center
+            border-radius: 25px
             font-size: 20px
             font-weight: 400
             line-height: 24px
-            a
-                display: block
-                margin: 50px auto 0
-                img
-                    width: 50px
-                    height: 50px
+
     &_text
         margin-top: 40px
         &_subtitle
@@ -395,10 +417,13 @@ h1
     background-color: #3A3737
     &_logo
         display: block
-        margin-top: 15px
-        width: 142px
+        width: 40px
+        height: 40px
+        margin: 10px auto 0
+        object-fit: cover
         img
-            height: 16px
+            width: 100%
+            height: 100%
     &_laws, &_policy
         display: block
         text-decoration: none
@@ -411,6 +436,8 @@ h1
             color: #6b6b6b
     &_laws
         margin-top: 10px
+        &:hover
+            color: #C6C6C6
     &_policy
         margin-top: 5px
     &_media
@@ -425,26 +452,13 @@ h1
             font-weight: 400
             line-height: 22px
             cursor: pointer
-            &:hover &_help
-                visibility: visible
-                opacity: 0.7
-            &_help
-                visibility: hidden
-                width: 140px
-                height: 20px
-                color: white
-                font-size: 10px
-                font-weight: 100
-                line-height: 10px    
-                text-align: center
-                padding: 5px 0
-                position: absolute
-                z-index: 1
-                bottom: 100%    
-                left: 50%
-                margin-left: -60px
-                opacity: 0
-                transition: opacity 0.3s
+            a
+                color: #C6C6C6
+                text-decoration: none
+                transition: 0.5s all
+                &:hover
+                    color: #C6C6C6
+
         &_inst
             margin-left: 15px
             img

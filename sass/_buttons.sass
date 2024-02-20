@@ -20,7 +20,7 @@
 .btw_buttons
     margin-top: 50px
     display: flex
-    &_google, &_apple, &_telegram
+    &_google, &_apple, &_telegram, &_form
         margin-left: 44px
         display: flex
         align-items: center
@@ -34,11 +34,12 @@
         border: 1px solid black
         font-weight: 100
         line-height: 14px
-        background-color: black
+        background-color: rgba(104,196,198,0.5)
         transition: 0.8s all
         &:hover
             color: white
             border: 1px solid white
+            background-color: rgba(38, 78, 79, 0.5)
         .btw_buttons_google_img
             img
                 width: 25px
@@ -61,6 +62,20 @@
                 line-height: 15px
     &_telegram
         margin-left: 0
+        &_tryBot
+            margin: 20px auto 0
+            background-color: rgba(104,196,198,1)
+            border: none
+            &:hover
+                background-color: rgb(45, 96, 97)
+                border: none
+    &_form
+        margin: 10px auto 20px
+        background-color: rgba(104,196,198,1)
+        border: none
+        &:hover
+            background-color: rgb(45, 96, 97)
+            border: none
 
 .reviews_btn
     margin: 20px auto 0
