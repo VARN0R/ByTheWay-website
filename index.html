@@ -55,8 +55,14 @@
     <link rel="stylesheet" href="css/bootstrap-grid.min.css" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="css/style.min.css">
+
+    <style>
+        .body-hidden {
+            opacity: 0;
+        }
+    </style>
 </head>
-<body>
+<body class="body-hidden">
 <header class="header">
     <div class="container">
         <nav>
@@ -519,6 +525,7 @@
 <script src="js/btwButtons.js"></script>
 <script src="js/wow.js"></script>
 <script>
+    document.querySelector('.body-hidden').classList.remove('body-hidden');
     new WOW().init();
 </script>
 </body>
