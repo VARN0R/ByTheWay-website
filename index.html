@@ -49,8 +49,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin media="print" onload="this.media='all'">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
           rel="stylesheet" media="print" onload="this.media='all'">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" media="print"
-          onload="this.media='all'"/>
     <link rel="stylesheet" href="css/animate.min.css" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css" media="print" onload="this.media='all'">
@@ -88,14 +86,14 @@
             <h1 class="animate__animated animate__fadeInLeft wow" data-wow-duraction="1s" data-wow-delay="0.1s">The
                 Way</h1>
             <div class="btw_text animate__animated animate__fadeInLeft wow" data-wow-duraction="1s"
-                 data-wow-delay="1.2s">
+                 data-wow-delay="0.7s">
                 Исследуйте красоты Беларуси с
                 помощью <br> нашего приложения - планируйте маршруты,<br> узнавайте о
                 достопримечательностях,<br> бронируйте отели и наслаждайтесь<br>
                 неповторимыми путешествиями!
             </div>
             <div class="btw_buttons animate__animated animate__fadeInUp wow" data-wow-duraction="1s"
-                 data-wow-delay="2s">
+                 data-wow-delay="1s">
                 <a href="https://t.me/TheWayByBot" class="btw_buttons_telegram">
                     <div class="btw_buttons_telegram_img"><img src="img/telegram_logo.png" alt="telegram bot logo">
                     </div>
@@ -112,7 +110,7 @@
 
             </div>
         </div>
-        <img class="btw_img animate__animated animate__fadeInUp wow" data-wow-duraction="1s" data-wow-delay="2.5s"
+        <img class="btw_img animate__animated animate__fadeInUp wow" data-wow-duraction="1s" data-wow-delay="1.2s"
              src="img/mobile_bg2.png" alt="phone">
     </div>
 </section>
@@ -135,15 +133,15 @@
 
         <div class="app_item">
             <div class="app_item_general app_item_1000">
-                <div id="counter1000" data-count="1000" class="app_item_title">0</div>
+                <div id="counter1000" data-count="1000" class="app_item_title">1000+</div>
                 <div class="app_item_subtitle">точек на карте</div>
             </div>
             <div class=" app_item_general app_item_50">
-                <div id="counter50" data-count="50" class="app_item_title">0</div>
+                <div id="counter50" data-count="50" class="app_item_title">50+</div>
                 <div class="app_item_subtitle">маршрутов</div>
             </div>
             <div class="app_item_general app_item_9">
-                <div id="counter9" data-count="9" class="app_item_title">0</div>
+                <div id="counter9" data-count="9" class="app_item_title">9+</div>
                 <div class="app_item_subtitle">партнеров</div>
             </div>
         </div>
@@ -254,7 +252,7 @@
     <div class="container">
         <h2 class="title animate__animated animate__fadeInLeft wow" data-wow-duraction="1s" data-wow-delay="0.1s">Что о
             нас <span>говорят?</span></h2>
-        <div class="swiper mySwiper">
+        <div class="swiper mySwiper animate__animated animate__fadeInUp wow" data-wow-duraction="1s" data-wow-delay="0.5s">
             <div class="swiper-wrapper">
                 <div class="mySwiper_slide swiper-slide">
 
@@ -396,10 +394,10 @@
 
             </div>
         </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next animate__animated animate__fadeInLeft wow" data-wow-duraction="1s" data-wow-delay="0.5s"></div>
+        <div class="swiper-button-prev animate__animated animate__fadeInLeft wow" data-wow-duraction="1s" data-wow-delay="0.5s"></div>
 
-        <a target="_blank" href="https://www.instagram.com/the.way.by/" class="reviews_btn">Оставить отзыв</a>
+        <a target="_blank" href="https://www.instagram.com/the.way.by/" class="reviews_btn animate__animated animate__fadeIn wow" data-wow-duraction="1s" data-wow-delay="0.9s">Оставить отзыв</a>
     </div>
 </section>
 
@@ -426,7 +424,7 @@
                     <div class="application_text_title animate__animated animate__fadeInLeft wow"
                          data-wow-duraction="1s" data-wow-delay="0.3s">И получите Premium версию приложения, когда оно будет доступно
                     </div>
-                    <div id="applicationText" class="application_text_description">На данный момент приложение активно разрабатывается.
+                    <div id="applicationText" class="application_text_description animate__animated animate__fadeInLeft wow" data-wow-duraction="1s" data-wow-delay="0.5s">На данный момент приложение активно разрабатывается.
                         Как только оно будет<br> готово, мы сообщим вам через электронную<br> почту и как бонус
                         предоставим <br> доступ к
                         PREMIUM версии бесплатно
@@ -436,7 +434,7 @@
 
             <div class="col-xl-5 col-lg-5 col-10 offset-1">
                 <div class="application_item animate__animated animate__fadeInDown wow" data-wow-duraction="1s"
-                     data-wow-delay="1.1s">
+                     data-wow-delay="0.7s">
                     <img class="application_item_img" src="img/application_img.png" alt="1">
                     <form class="application_item_form" action="" name="submit-to-google-sheet">
                         <div class="application_item_form_title">Заполните форму</div>
@@ -510,17 +508,7 @@
     </div>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-<script src="js/swiper.js"></script>
-<script src="js/hamburger.js"></script>
-<script src="js/countAnimation.js"></script>
-<script src="js/dataForm.js"></script>
-<script src="js/hideHeader.js"></script>
-<script src="js/btwButtons.js"></script>
-<script src="js/wow.js"></script>
-<script>
-    new WOW().init();
-</script>
+<script src="js/bundle.js"></script>
 </body>
 </html>
 
